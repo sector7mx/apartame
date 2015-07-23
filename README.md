@@ -1,2 +1,2 @@
 # apartame
-A Shopify WebApp
+Una WebShopiApp para...
