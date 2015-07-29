@@ -10,3 +10,5 @@ apartame/logs/*
 
 user_guide/*
 sitioCounter/*
+
+application/config/*
