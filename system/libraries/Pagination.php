@@ -5,9 +5,8 @@
  * An open source application development framework for PHP 5.1.6 or newer
  *
  * @package		CodeIgniter
- * @author		EllisLab Dev Team
- * @copyright		Copyright (c) 2008 - 2014, EllisLab, Inc.
- * @copyright		Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @author		ExpressionEngine Dev Team
+ * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
  * @license		http://codeigniter.com/user_guide/license.html
  * @link		http://codeigniter.com
  * @since		Version 1.0
@@ -22,7 +21,7 @@
  * @package		CodeIgniter
  * @subpackage	Libraries
  * @category	Pagination
- * @author		EllisLab Dev Team
+ * @author		ExpressionEngine Dev Team
  * @link		http://codeigniter.com/user_guide/libraries/pagination.html
  */
 class CI_Pagination {
@@ -36,10 +35,10 @@ class CI_Pagination {
 	var $num_links			=  2; // Number of "digit" links to show before/after the currently viewed page
 	var $cur_page			=  0; // The current page being viewed
 	var $use_page_numbers	= FALSE; // Use page number for segment instead of offset
-	var $first_link			= '&lsaquo; Primero';
+	var $first_link			= '&lsaquo; First';
 	var $next_link			= '&gt;';
 	var $prev_link			= '&lt;';
-	var $last_link			= 'Ultimo &rsaquo;';
+	var $last_link			= 'Last &rsaquo;';
 	var $uri_segment		= 3;
 	var $full_tag_open		= '';
 	var $full_tag_close		= '';

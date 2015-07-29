@@ -1,9 +1,12 @@
 .DS_Store
 
-application/cache/*
-!application/cache/index.html
-!application/cache/.htaccess
+apartame/cache/*
+!apartame/cache/index.html
+!apartame/cache/.htaccess
 
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
+apartame/logs/*
+!apartame/logs/index.html
+!apartame/logs/.htaccess
+
+user_guide/*
+sitioCounter/*
